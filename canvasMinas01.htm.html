@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSCAMINAS</title>
+
+</head>
+<body>
+    <script>
+        var canvas,ctx;
+        const COLUMNAS=10;
+        const RENGLONES=10;
+        const TODAS= COLUMNAS*RENGLONES;
+        const MINAS= COLUMNAS*2;
+        const VECINOS=8;
+        const MATRIZ_RENGLON=20;
+        const MATRIZ_COLUMNA=320;
+        const ANCHO_CUADRADO=40;
+
+        // Maracador 
+        var numeroMinas=0;
+        var minasEnontradas=0;
+        var minasMarcadas=0;
+
+        //ESTADOS
+        const CUBIERTO=0;
+        const DESCUBIERTO=1;
+        const MARCA_MINA=2;
+        const BOMBA=9;
+        const OK=14;
+        //
+         var celdas_array =new Array();
+         var colorTecla="blue";
+         var colorMargen="yellow";
+         var colorVoltea="cyan";
+         var banderaMarca;
+
+    </script>
+
+</body>
+</html>

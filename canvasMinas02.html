@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+                 /************************
+          OBJETOS
+          ***********************/
+
+          function celda(ren,col,x,y,w,h,i,minas,estados){
+            this.ren=ren;
+            this.col=col;
+            this.x=x;
+            this.y=y;
+            this.w=w;
+            this.h;
+            this.minas=minas;
+            this.estados=estado;
+            //
+            this.dibuja=dibujaCelda;
+            this.voltea=volteaCelda;
+            this.marca=marcaCelda;
+          }
+          function dibujaCelda(){
+                ctx.save();
+                ctx.fillStyle=colorTecla;
+                ctx.strokeStyle=colorMargen;
+                ctx.fillrect(this.x,this.y,this.w,this.h);
+                ctx.strokeRect(this.x,this.y,this.w,this.h)
+                ctx.restore();
+                
+            }
+            function volteaCelda(){
+
+            }
+            function marcaCelda(){
+
+            }
+            function Bandera(){
+                this.x=610;
+                this.y=445;
+                this.w=280;
+                this.h=30;
+                this.estado=false;
+                
+            }
+    </script>
+</body>
+</html>
