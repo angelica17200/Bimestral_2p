@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:
+  
 }
 
 .main {
   position: relative;
   min-height: 100vh;
-  background: radial-gradient(#45607a, #528ab8);
+  background: linear-gradient(45deg,#7a038a, #01137c);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,6 +33,7 @@ header {
   max-width: 90px;
 }
 
+
 .navigation {
   display: flex;
 }
@@ -43,7 +44,8 @@ header {
   position: relative;
   color: #fff;
   text-decoration: none;
-  margin-left: 40px;
+  margin-left: 150px;
+  font-weight: 150;
 }
 
 .content {
@@ -58,15 +60,15 @@ header {
   max-width: 600px;
 }
 .content .text h2 {
-  color: #fff;
-  font-size: 5em;
-  font-weight: 300;
+  color: #ae84d1;
+  font-size: 9em;
+  font-weight: 600;
 }
 .content .text h2 span {
   font-weight: 700;
 }
 .content .text p {
-  color: #fff;
+  color: #ffffff;
   font-weight: 400;
   font-size: 1.1em;
   line-height: 1.5em;
@@ -77,8 +79,8 @@ header {
   position: relative;
   display: inline-block;
   padding: 20px 50px;
-  background: #fff;
-  color: #333;
+  background: radial-gradient(#570250, #7a007a);
+  color: #dfb7ff;
   font-size: 1.1em;
   font-weight: 500;
   border-radius: 40px;
@@ -272,4 +274,4 @@ header {
   .sci {
     margin-top: 40px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
